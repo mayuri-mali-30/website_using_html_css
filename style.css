@@ -1,0 +1,97 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Lobster', cursive;
+
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    text-transform:uppercase;
+}
+.nav-link:hover{
+    color: black;
+
+}
+.search{
+    height:40px;
+    width:80%;
+    border-radius: 60px;
+    margin-right: -35px;
+    font-family: 'Rubik', sans-serif;
+    outline:2px solid rgb(248,26,92);
+
+}
+.btn0{
+    height: 40px;
+    width:80px;
+    outline: none;
+    border: none;
+    background-color: rgb(248,26,92) ;
+    color: white;
+    font-weight:700 ;
+    border-radius: 60px;
+}
+.main{
+    background: url(./oru.jpeg)no-repeat;
+    background-size:cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+
+}
+.btn1{
+    height:45px;
+    width:35% ;
+    border:none;
+    outline: none;
+    background-color:rgb(248,26,92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    
+
+
+
+}
+.btn1:hover{
+    background-color:rgb(1, 1, 1) ;
+    transition: 0.5s;
+
+}
+.images{
+    margin-right: 50px;
+}
+h1{
+    font-weight: 700;
+}
+.card:hover{
+    -webkit-box-shadow: 1px 2px 17px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 17px -1px rgba(0,0,0,0.75);
+    box-shadow: 1px 2px 17px -1px rgba(0,0,0,0.75);
+transition:0.5s ;
+}
+.apple{
+    background:url(./back2.jpeg)no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+.apple h1{
+    font-family: 'Lobster', cursive;  
+}
